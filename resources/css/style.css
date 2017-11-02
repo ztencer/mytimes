@@ -1,0 +1,239 @@
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  height: 80px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: white;
+}
+
+body {
+  margin: 0px 0px;
+}
+
+.logo {
+  padding-right: 12px;
+}
+
+.mytimes {
+  color: MediumAquamarine;
+}
+
+.logobox {
+  display: flex;
+  padding-left:30px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+nav  {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+nav span {
+  padding: 20px 10px;
+  color: black;
+  text-decoration: underline;
+}
+
+ul {
+  display:inline-block;
+}
+
+div {
+
+}
+
+.contentbox {
+  display: flex;
+  padding-top: 116px;
+  margin-bottom: 78px;
+}
+
+.col1,
+.col2,
+.col3 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  flex-shrink: 0;
+
+}
+
+.col1 {
+  width: 630px;
+
+}
+
+.col2 {
+  width: 300px;
+}
+
+.col3 {
+  width: 240px;
+}
+
+
+.article {
+}
+
+p.title,
+p.article {
+  margin: 0px;
+}
+
+p.article {
+  margin: 16px 0px;
+}
+
+div.article {
+}
+
+.text-content,
+.lead-story,
+.story {
+}
+
+.text-content {
+  height: 250px;
+}
+
+.image-content {
+  display: flex;
+}
+
+.earth span,
+.camera span,
+.cats span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.main span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+
+.main.image-content {
+  height: 300px;
+  background-image: url("../images/main-image.png");
+  text-align: left;
+  margin-top: 0px;
+}
+
+.earth.image-content {
+  height: 300px;
+  background-image: url("../images/earth.png");
+}
+
+.camera.image-content {
+  height: 300px;
+  background-image: url("../images/camera.png");
+}
+
+.cats.image-content {
+  height: 300px;
+  background-image: url("../images/cat-logo.png");
+  /* It would be great to know why the text-align
+  center won't work on the other images! */
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.newsbites h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 41px;
+}
+
+.bite {
+  display: block;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+}
+
+/* Footer */
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footnav {
+  display: flex;
+  align-items: center;
+}
+
+.mytimesfoot {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+}
+
+.spacenav {
+  padding-left: 25px;
+}
+
+.navfoot {
+  font-family: Verdana;
+  text-decoration: underline;
+  font-size: 12px;
+  padding: 20px 10px;
+}
+
+.copytext {
+  font-family: Verdana;
+  font-size: 12px;
+}
